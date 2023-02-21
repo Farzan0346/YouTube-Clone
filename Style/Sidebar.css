@@ -1,0 +1,46 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    padding-top: 4px;
+    background-color: white;
+}
+.sidebar .link-button{
+    text-decoration: none;
+}
+
+
+.home-button,
+.explore-button,
+.subscription-button,
+.library-button{
+    font-family: Roboto, Arial;
+    width: 72px;
+    height: 74px;
+    font-size: 10px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-button:hover,
+.explore-button:hover,
+.library-button:hover,
+.subscription-button:hover{
+    background-color: rgb(225,225,225);
+    border-radius: 15px;
+}
+
+.home-icon,
+.explore-icon,
+.subscriptions-icon,
+.library-icon{
+    height: 24px;
+    width: 24px;  
+    margin-bottom: 6px;  
+}
